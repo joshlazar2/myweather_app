@@ -109,7 +109,7 @@ const Landing = () => {
                     <p class="text-xl">{weatherData.humidity}%</p>
                 </div>
                 <div class="flex justify-around">
-                    <p class="text-4xl">High/Low:</p>
+                    <p class="text-xl">High/Low:</p>
                     <p class="text-xl">{(weatherData.max_temp * 9 / 5) + 32}°/{(weatherData.min_temp * 9 / 5) + 32}°</p>
                 </div>
                 <div class="flex justify-around">
